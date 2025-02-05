@@ -1,0 +1,209 @@
+[
+  {
+    "ContainingType": "WebApi8_TesteAdmissao.Controllers.PessoaController",
+    "Method": "BuscarPessoaPorCpf",
+    "RelativePath": "api/Pessoa/BuscarPessoaPorCpf/{cpf}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cpf",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebApi8_TesteAdmissao.Models.ResponseModel\u00601[[WebApi8_TesteAdmissao.Models.PessoaModel, WebApi8-TesteAdmissao, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApi8_TesteAdmissao.Controllers.PessoaController",
+    "Method": "BuscarPessoaPorId",
+    "RelativePath": "api/Pessoa/BuscarPessoaPorId/{idPessoa}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idPessoa",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebApi8_TesteAdmissao.Models.ResponseModel\u00601[[WebApi8_TesteAdmissao.Models.PessoaModel, WebApi8-TesteAdmissao, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApi8_TesteAdmissao.Controllers.PessoaController",
+    "Method": "BuscarPessoaPorNome",
+    "RelativePath": "api/Pessoa/BuscarPessoaPorNome/{nomeCompleto}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nomeCompleto",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebApi8_TesteAdmissao.Models.ResponseModel\u00601[[WebApi8_TesteAdmissao.Models.PessoaModel, WebApi8-TesteAdmissao, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApi8_TesteAdmissao.Controllers.PessoaController",
+    "Method": "CriarPessoa",
+    "RelativePath": "api/Pessoa/CriarPessoa",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pessoaCriacaoDto",
+        "Type": "WebApi8_TesteAdmissao.Dto.Pessoa.PessoaCriacaoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebApi8_TesteAdmissao.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebApi8_TesteAdmissao.Models.PessoaModel, WebApi8-TesteAdmissao, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApi8_TesteAdmissao.Controllers.PessoaController",
+    "Method": "EditarPessoa",
+    "RelativePath": "api/Pessoa/EditarPessoa",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "editaPessoaDto",
+        "Type": "WebApi8_TesteAdmissao.Dto.Pessoa.EditaPessoaDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebApi8_TesteAdmissao.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebApi8_TesteAdmissao.Models.PessoaModel, WebApi8-TesteAdmissao, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApi8_TesteAdmissao.Controllers.PessoaController",
+    "Method": "ExcluirPessoa",
+    "RelativePath": "api/Pessoa/ExcluirPessoa",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebApi8_TesteAdmissao.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebApi8_TesteAdmissao.Models.PessoaModel, WebApi8-TesteAdmissao, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApi8_TesteAdmissao.Controllers.PessoaController",
+    "Method": "ListarPessoas",
+    "RelativePath": "api/Pessoa/ListarPessoas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nome",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "cpf",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "cidade",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "estado",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "pagina",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "tamanhoPagina",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebApi8_TesteAdmissao.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebApi8_TesteAdmissao.Models.PessoaModel, WebApi8-TesteAdmissao, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

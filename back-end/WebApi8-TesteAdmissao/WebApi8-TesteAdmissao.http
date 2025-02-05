@@ -1,0 +1,6 @@
+@WebApi8_TesteAdmissao_HostAddress = http://localhost:5229
+
+GET {{WebApi8_TesteAdmissao_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
